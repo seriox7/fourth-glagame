@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b5ehvuc8cjbax"]
+
+[ext_resource type="Texture2D" uid="uid://covtebsul66v4" path="res://assets/动漫卧室场景 (3)_爱给网_aigei_com.png" id="1_6e84v"]
+
+[node name="Node2D" type="Node2D" unique_id=1654512518]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1228667167]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=25879874]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_6e84v")
