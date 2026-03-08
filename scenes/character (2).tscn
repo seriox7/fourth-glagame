@@ -17,9 +17,9 @@ animations = [{
 "speed": 2.0
 }]
 
-[node name="Node2D" type="Node2D" unique_id=1231778690]
+[node name="CHARACTER" type="Node2D" unique_id=1231778690]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=348301170]
-position = Vector2(219, -27)
+position = Vector2(-193, 43)
 sprite_frames = SubResource("SpriteFrames_0hol4")
-frame_progress = 0.5492502
+frame_progress = 0.8949651

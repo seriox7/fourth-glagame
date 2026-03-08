@@ -1,15 +1,46 @@
 [gd_scene format=3 uid="uid://b5ehvuc8cjbax"]
 
 [ext_resource type="Texture2D" uid="uid://covtebsul66v4" path="res://assets/动漫卧室场景 (3)_爱给网_aigei_com.png" id="1_6e84v"]
+[ext_resource type="PackedScene" uid="uid://cm367ylfjkxq4" path="res://scenes/character (2).tscn" id="2_4dvvg"]
+[ext_resource type="PackedScene" uid="uid://w3ubp2k62fps" path="res://scenes/dialog UI.tscn" id="3_rnjyy"]
 
 [node name="Node2D" type="Node2D" unique_id=1654512518]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1228667167]
+layer = -1
+scale = Vector2(0.8, 0.8)
+transform = Transform2D(0.8, 0, 0, 0.8, 0, 0)
 
 [node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=25879874]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = -105.0
+offset_right = 296.74988
+offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_6e84v")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1076316876]
+
+[node name="Control" type="Control" parent="CanvasLayer2" unique_id=135415940]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="CHARACTER" parent="CanvasLayer2/Control" unique_id=1231778690 instance=ExtResource("2_4dvvg")]
+position = Vector2(282, -400)
+scale = Vector2(1.2, 1.2)
+
+[node name="Dialog UI" parent="CanvasLayer2" unique_id=1829133818 instance=ExtResource("3_rnjyy")]
+offset_left = 6.0
+offset_top = -4.0
+offset_right = 6.0
+offset_bottom = -4.0

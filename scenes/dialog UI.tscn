@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://w3ubp2k62fps"]
+
+[ext_resource type="Theme" uid="uid://i58npacxdv34" path="res://new_theme.tres" id="1_jj65b"]
+
+[node name="Dialog UI" type="Control" unique_id=1829133818]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_jj65b")
+
+[node name="Dialogbox" type="PanelContainer" parent="." unique_id=612337567]
+custom_minimum_size = Vector2(0, 87)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -218.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Speakerbox" type="Control" parent="." unique_id=1006584328]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 1.0
+offset_top = 51.0
+offset_right = 227.0
+offset_bottom = 106.0
+grow_vertical = 2
+
+[node name="Polygon2D" type="Polygon2D" parent="Speakerbox" unique_id=592807485]
+color = Color(0, 0.4392157, 0.54901963, 0.69803923)
+polygon = PackedVector2Array(233, 20, 295, 56, -1, 56, -1, 20)
+
+[node name="Control" type="Control" parent="." unique_id=754759435]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -40.0
+offset_top = -40.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="Polygon2D" type="Polygon2D" parent="Control" unique_id=1389749115]
+position = Vector2(-19, -25)
+color = Color(0.86898494, 0.8689849, 0.8689849, 1)
+polygon = PackedVector2Array(1.3336182, 6.6666718, 37.33362, 32, 2.0003052, 50.66667)
