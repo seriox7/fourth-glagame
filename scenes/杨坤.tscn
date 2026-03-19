@@ -1,10 +1,19 @@
 [gd_scene format=3 uid="uid://cm367ylfjkxq4"]
 
 [ext_resource type="Texture2D" uid="uid://cwjqdnth3eqh" path="res://assets/微信图片_20260305214540_74_58-removebg-preview.png" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://c4203fv34f8qc" path="res://assets/75bb636edbd7d965ba484f72ef3c563c-removebg-preview.png" id="1_xm2u8"]
 [ext_resource type="Texture2D" uid="uid://b30315aaoawp5" path="res://assets/生成闭眼图片-removebg-preview.png" id="2_epypp"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0hol4"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xm2u8")
+}],
+"loop": true,
+"name": &"fight",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_0e48y")
@@ -13,14 +22,14 @@ animations = [{
 "texture": ExtResource("2_epypp")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idle",
 "speed": 2.0
 }]
 
 [node name="CHARACTER" type="Node2D" unique_id=1231778690]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=348301170]
-position = Vector2(-193, 43)
+position = Vector2(-191, 16)
 sprite_frames = SubResource("SpriteFrames_0hol4")
-autoplay = "default"
-frame_progress = 0.8044818
+animation = &"fight"
+autoplay = "idle"

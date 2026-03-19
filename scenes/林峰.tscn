@@ -1,8 +1,13 @@
 [gd_scene format=3 uid="uid://bcfnm46sp5xi6"]
 
+[ext_resource type="Texture2D" uid="uid://da4cdsbimrr8i" path="res://assets/2450b92ffe18a5fe4a13173b49d8f7a7-removebg-preview.png" id="1_0aguq"]
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_fabjc"]
 animations = [{
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0aguq")
+}],
 "loop": true,
 "name": &"idle",
 "speed": 5.0
