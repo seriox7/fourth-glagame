@@ -1,0 +1,56 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://dj2ab1qe188ko"]
+
+[ext_resource type="Texture2D" uid="uid://c4203fv34f8qc" path="res://assets/75bb636edbd7d965ba484f72ef3c563c-removebg-preview.png" id="1_5q8hh"]
+[ext_resource type="Texture2D" uid="uid://cwjqdnth3eqh" path="res://assets/微信图片_20260305214540_74_58-removebg-preview.png" id="2_eye3c"]
+[ext_resource type="Texture2D" uid="uid://b30315aaoawp5" path="res://assets/生成闭眼图片-removebg-preview.png" id="3_jqnxe"]
+[ext_resource type="Texture2D" uid="uid://dghwbme2ux6kr" path="res://assets/微信图片_20260322161643_77_58-removebg-preview.png" id="4_yjqpn"]
+[ext_resource type="Texture2D" uid="uid://d4d4py43885ct" path="res://assets/Generated_Image_March_22__2026_-_4_19PM-removebg-preview.png" id="5_76122"]
+[ext_resource type="Texture2D" uid="uid://et6rc17kenpt" path="res://assets/Generated_Image_March_22__2026_-_4_22PM-removebg-preview.png" id="6_ljsqw"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_5q8hh")
+}],
+"loop": true,
+"name": &"fight",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 2.6,
+"texture": ExtResource("2_eye3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jqnxe")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_yjqpn")
+}, {
+"duration": 2.2,
+"texture": ExtResource("5_76122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ljsqw")
+}, {
+"duration": 2.2,
+"texture": ExtResource("5_76122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_yjqpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ljsqw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_76122")
+}],
+"loop": true,
+"name": &"speak",
+"speed": 8.0
+}]

@@ -1,0 +1,22 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://cssekmp43m41s"]
+
+[ext_resource type="Texture2D" uid="uid://b5mcvobyv08j4" path="res://assets/微信图片_20260310203259_248_1-removebg-preview.png" id="1_n1dly"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_n1dly")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_n1dly")
+}],
+"loop": true,
+"name": &"speak",
+"speed": 5.0
+}]

@@ -1,0 +1,22 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://de8dboavmovm0"]
+
+[ext_resource type="Texture2D" uid="uid://da4cdsbimrr8i" path="res://assets/2450b92ffe18a5fe4a13173b49d8f7a7-removebg-preview.png" id="1_js606"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_js606")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_js606")
+}],
+"loop": true,
+"name": &"speak",
+"speed": 5.0
+}]
