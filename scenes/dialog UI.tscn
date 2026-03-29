@@ -32,6 +32,7 @@ grow_vertical = 0
 unique_name_in_owner = true
 layout_mode = 2
 bbcode_enabled = true
+scroll_active = false
 
 [node name="Speakerbox" type="Control" parent="." unique_id=1006584328]
 layout_mode = 1

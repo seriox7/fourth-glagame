@@ -27,14 +27,19 @@ const dialog_lines : Array[String] = [
 ]
 
 func _ready() -> void:
+	dialog_ui.text_animation_done.connect(on_text_animation_done)
 	dialog_index = 0
 	process_current_line()
+	
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("next_line"):
-		if dialog_index < len(dialog_lines) - 1:
-			dialog_index +=1
-			process_current_line()
+		if dialog_ui.animate_text:
+			dialog_ui.skip_text_animation()
+		else:
+			if dialog_index < len(dialog_lines) - 1:
+				dialog_index +=1
+				process_current_line()
 
 func parse_line(line:String):
 	var line_info = line.split(":")
@@ -49,3 +54,6 @@ func process_current_line():
 	var line_info = parse_line(line)
 	dialog_ui.change_line(line_info["speaker_name"],line_info["dialog_line"])
 	character.change_character(line_info["speaker_name"])
+
+func on_text_animation_done():
+	character.play_idle_animation()

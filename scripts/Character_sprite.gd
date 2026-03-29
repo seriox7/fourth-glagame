@@ -18,3 +18,6 @@ func change_character(character_name:String,is_talking : bool = true):
 		sprite.play("speak")
 	else:
 		sprite.play("idle")
+
+func play_idle_animation():
+	sprite.play("idle")
