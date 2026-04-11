@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://cu1u4xx56eksg"
-path="res://.godot/imported/QingNiaoHuaGuangJianMeiHei-2.ttf-16d74c12f95204e6e56146d77eb9b838.fontdata"
+path="res://.godot/imported/QingNiaoHuaGuangJianMeiHei-2.ttf-a4799fa85e5503477e83676de3ee17fb.fontdata"
 
 [deps]
 
-source_file="res://assets/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf"
-dest_files=["res://.godot/imported/QingNiaoHuaGuangJianMeiHei-2.ttf-16d74c12f95204e6e56146d77eb9b838.fontdata"]
+source_file="res://assets/字体/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf"
+dest_files=["res://.godot/imported/QingNiaoHuaGuangJianMeiHei-2.ttf-a4799fa85e5503477e83676de3ee17fb.fontdata"]
 
 [params]
 

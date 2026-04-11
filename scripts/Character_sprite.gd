@@ -13,11 +13,14 @@ func _ready() -> void:
 	pass
 
 func change_character(character_name:String,is_talking : bool = true):
-	sprite.sprite_frames = CHARACTER_FRAMES[character_name]
-	if is_talking:
-		sprite.play("speak")
+	if CHARACTER_FRAMES.has(character_name):
+		sprite.sprite_frames = CHARACTER_FRAMES[character_name]
+		if is_talking:
+			sprite.play("speak")
+		else:
+			sprite.play("idle")
 	else:
-		sprite.play("idle")
+		print("注意：字典里没有这个角色的立绘 -> ", character_name)
 
 func play_idle_animation():
 	sprite.play("idle")

@@ -13,5 +13,6 @@ border_color = Color(0, 0.4392157, 0.54901963, 0.69803923)
 
 [resource]
 default_font = ExtResource("1_amlv4")
+Button/fonts/font = ExtResource("1_amlv4")
 PanelContainer/styles/panel = SubResource("StyleBoxFlat_e0ow4")
 RichTextLabel/font_sizes/normal_font_size = 49

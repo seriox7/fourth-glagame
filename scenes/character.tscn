@@ -9,5 +9,4 @@ script = ExtResource("1_rkhd4")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=348301170]
 position = Vector2(-191, 16)
 sprite_frames = ExtResource("2_rkhd4")
-animation = &"idle"
-frame_progress = 0.39528635
+animation = &"fight"

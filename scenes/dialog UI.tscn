@@ -2,6 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://i58npacxdv34" path="res://new_theme.tres" id="1_jj65b"]
 [ext_resource type="Script" uid="uid://dgaic0l8yier7" path="res://scripts/dialog_ui.gd" id="2_67qqu"]
+[ext_resource type="FontFile" uid="uid://cu1u4xx56eksg" path="res://assets/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf" id="3_8eo1i"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jj65b"]
 font_size = 28
@@ -94,3 +95,32 @@ grow_vertical = 0
 position = Vector2(-19, -25)
 color = Color(0.86898494, 0.8689849, 0.8689849, 1)
 polygon = PackedVector2Array(1.3336182, 6.6666718, 37.33362, 32, 2.0003052, 50.66667)
+
+[node name="Control2" type="Control" parent="." unique_id=1768210140]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ChoiceBox" type="VBoxContainer" parent="Control2" unique_id=2065865962]
+unique_name_in_owner = true
+visible = false
+layout_mode = 0
+offset_left = 312.0
+offset_top = 109.0
+offset_right = 812.0
+offset_bottom = 319.0
+theme_override_constants/separation = 27
+
+[node name="Button" type="Button" parent="Control2/ChoiceBox" unique_id=2039765575]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8eo1i")
+theme_override_font_sizes/font_size = 40
+
+[node name="Button2" type="Button" parent="Control2/ChoiceBox" unique_id=1733144794]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_8eo1i")
+theme_override_font_sizes/font_size = 40
+
+[node name="Button3" type="Button" parent="Control2/ChoiceBox" unique_id=1609342674]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40

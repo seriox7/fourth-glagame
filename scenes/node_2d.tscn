@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b5ehvuc8cjbax"]
 
 [ext_resource type="Script" uid="uid://m0wfbwqfd1c1" path="res://scripts/node_2d.gd" id="1_4vge2"]
-[ext_resource type="Texture2D" uid="uid://covtebsul66v4" path="res://assets/动漫卧室场景 (3)_爱给网_aigei_com.png" id="1_6e84v"]
+[ext_resource type="Texture2D" path="res://assets/动漫卧室场景 (3)_爱给网_aigei_com.png" id="1_6e84v"]
 [ext_resource type="PackedScene" uid="uid://cm367ylfjkxq4" path="res://scenes/character.tscn" id="2_4dvvg"]
 [ext_resource type="PackedScene" uid="uid://w3ubp2k62fps" path="res://scenes/dialog UI.tscn" id="3_rnjyy"]
 
@@ -13,7 +13,8 @@ layer = -1
 scale = Vector2(0.8, 0.8)
 transform = Transform2D(0.8, 0, 0, 0.8, 0, 0)
 
-[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=25879874]
+[node name="buckground" type="TextureRect" parent="CanvasLayer" unique_id=25879874]
+unique_name_in_owner = true
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
