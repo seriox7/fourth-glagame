@@ -2,7 +2,7 @@
 
 [ext_resource type="Theme" uid="uid://i58npacxdv34" path="res://new_theme.tres" id="1_jj65b"]
 [ext_resource type="Script" uid="uid://dgaic0l8yier7" path="res://scripts/dialog_ui.gd" id="2_67qqu"]
-[ext_resource type="FontFile" uid="uid://cu1u4xx56eksg" path="res://assets/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf" id="3_8eo1i"]
+[ext_resource type="FontFile" uid="uid://cu1u4xx56eksg" path="res://assets/字体/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf" id="3_8eo1i"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jj65b"]
 font_size = 28

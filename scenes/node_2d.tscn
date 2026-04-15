@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://b5ehvuc8cjbax"]
 
 [ext_resource type="Script" uid="uid://m0wfbwqfd1c1" path="res://scripts/node_2d.gd" id="1_4vge2"]
-[ext_resource type="Texture2D" path="res://assets/动漫卧室场景 (3)_爱给网_aigei_com.png" id="1_6e84v"]
 [ext_resource type="PackedScene" uid="uid://cm367ylfjkxq4" path="res://scenes/character.tscn" id="2_4dvvg"]
 [ext_resource type="PackedScene" uid="uid://w3ubp2k62fps" path="res://scenes/dialog UI.tscn" id="3_rnjyy"]
 
@@ -24,7 +23,6 @@ offset_right = 296.74988
 offset_bottom = 207.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_6e84v")
 
 [node name="CanvasLayer2" type="CanvasLayer" parent="." unique_id=1076316876]
 

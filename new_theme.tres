@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://i58npacxdv34"]
 
-[ext_resource type="FontFile" uid="uid://cu1u4xx56eksg" path="res://assets/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf" id="1_amlv4"]
+[ext_resource type="FontFile" uid="uid://cu1u4xx56eksg" path="res://assets/字体/QingNiaoHuaGuangJianMeiHei/QingNiaoHuaGuangJianMeiHei-2.ttf" id="1_amlv4"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e0ow4"]
 content_margin_left = 40.0
